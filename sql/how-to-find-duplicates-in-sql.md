@@ -37,9 +37,9 @@ Use AND
 
 like
 ````sql
-SELECT user_first_name, user_last_name,
-COUNT(user_first_name) AS total_first_name_dups,
-COUNT(user_last_name) AS total_last_name_dups,
+SELECT  user_first_name, user_last_name,
+        COUNT(user_first_name) AS total_first_name_dups,
+        COUNT(user_last_name) AS total_last_name_dups,
 FROM users
 GROUP BY user_first_name, user_last_name
 HAVING ( COUNT(user_first_name) > 1 ) AND ( COUNT(user_last_name) > 1 )
