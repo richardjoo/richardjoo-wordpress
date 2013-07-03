@@ -33,9 +33,10 @@ Then the result would look like this:
 
 ````sql
 client_name     rate_plan_amount       month    total_non_cancelled    total_cancelled
-client_1    199.00                 9    174                 9
-client_2    499.00                 9    782                 82
-client_3    99.00                  9    32                  2
-client_4    99.00                  9    22                  0
-client_5    99.00                  9    1                   0
+----------------------------------------------------------------------------------------
+client_1            199.00               9              174                   9
+client_2            499.00               9              782                   82
+client_3            99.00                9              32                    2
+client_4            99.00                9              22                    0
+client_5            99.00                9              1                     0
 ````
